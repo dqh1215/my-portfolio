@@ -1,19 +1,34 @@
-import { Avatar, AvatarFallback, AvatarImage } from "../ui/avatar";
+import NavigationMenuDemo from "./NavigationBar"
+import { ThemeProvider } from "../ui/theme-provider"
+import { HeroSection } from "./HeroSection"
+import { AboutMe } from "./AboutMe"
+import { Skills } from "./Skills"
+import { Projects } from "./Projects"
+import { Footer } from "./Footer"
 
-const Home = () => {
+export function Home() {
   return (
     <>
-      <div className="flex justify-around">
-        <div>
-          <Avatar className="size-80">
-            <AvatarImage src="/public/avatar.jpg" />
-            <AvatarFallback></AvatarFallback>
-          </Avatar>
+    <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
+      <div className="">
+        <div className="sticky top-0 z-50">
+          <NavigationMenuDemo />
         </div>
-        <h1>Hi I'm Tạ Minh Trang, a student from Hanoi University of Law.</h1>
-      </div>
-    </>
-  );
-};
 
-export default Home;
+        <HeroSection />
+
+        <AboutMe />
+
+        <Skills />
+
+        <Projects />
+
+        <Footer />
+        
+      </div>
+    </ThemeProvider>
+    </>
+    
+  )
+}
+
