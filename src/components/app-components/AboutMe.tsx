@@ -5,9 +5,9 @@ import { Link } from "react-router-dom";
 
 export const AboutMe = () => {
   return (
-    <section id="about" className="relative py-20">
-      <div className="max-w-3xl mx-auto">
-        <div className="flex-1 md:text-left space-y-6">
+    <section id="about" className="min-h-screen flex items-center">
+      <div className="mx-auto flex w-full h-100">
+        <div className="w-1/2 flex-1 md:text-left space-y-10 ml-70">
           <Badge variant="secondary" className="">
             About Me
           </Badge>
@@ -22,18 +22,26 @@ export const AboutMe = () => {
             to complex problems and sharing knowledge with the developer
             community.
           </p>
-          <div className="flex flex-wrap gap-4 justify-start">
-            <Link to="https://github.com/dqh1215">
-                <Button className="rounded-full">
-                    <Github />View Github
-                </Button>    
+          <div className="flex gap-5">
+            <Link target="_blank" to="https://github.com/dqh1215">
+              <Button className="rounded-full">
+                <Github />
+                View Github
+              </Button>
             </Link>
             <Link to="">
               <Button variant="outline" className="rounded-full">
-                <Download />Download CV
+                <Download />
+                Download CV
               </Button>
             </Link>
           </div>
+        </div>
+        <div className="flex-1 ml-50">
+          <img
+            className="relative rounded-2xl h-full bg-accent overflow-hidden"
+            src="public/placeholder.svg"
+          />
         </div>
       </div>
     </section>

@@ -51,7 +51,7 @@ export default function NavigationMenuDemo() {
                   asChild
                   className={navigationMenuTriggerStyle()}
                 >
-                  <HashLink smooth to="#projects">Projects</HashLink>
+                  <HashLink smooth to="#projects"><div className="font-bold">Projects</div></HashLink>
                 </NavigationMenuLink>
               </NavigationMenuItem>
               <NavigationMenuItem>

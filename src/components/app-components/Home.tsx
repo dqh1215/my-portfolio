@@ -11,7 +11,7 @@ export function Home() {
     <>
     <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
       <div className="">
-        <div className="sticky top-0 z-50">
+        <div className="sticky top-0 w-full z-50">
           <NavigationMenuDemo />
         </div>
 
