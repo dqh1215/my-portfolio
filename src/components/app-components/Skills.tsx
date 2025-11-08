@@ -10,7 +10,7 @@ export const Skills = () => {
         <div className="flex-1 ml-70">
           <img
             className="relative rounded-2xl h-full bg-accent overflow-hidden"
-            src="public/placeholder.svg"
+            src="placeholder.svg"
           />
         </div>
         <div className="w-1/2 flex-1 md:text-left space-y-10 mr-70">

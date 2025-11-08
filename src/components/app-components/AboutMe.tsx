@@ -40,7 +40,7 @@ export const AboutMe = () => {
         <div className="flex-1 ml-50">
           <img
             className="relative rounded-2xl h-full bg-accent overflow-hidden"
-            src="public/placeholder.svg"
+            src="placeholder.svg"
           />
         </div>
       </div>

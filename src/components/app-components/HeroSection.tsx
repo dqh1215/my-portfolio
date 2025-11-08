@@ -8,7 +8,7 @@ export const HeroSection = () => {
       <div className="min-h-screen flex items-center justify-evenly">
         <div>
           <Avatar className="size-120">
-            <AvatarImage src="/public/avatar.jpg" />
+            <AvatarImage src="avatar.jpg" />
             <AvatarFallback></AvatarFallback>
           </Avatar>
         </div>

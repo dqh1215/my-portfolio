@@ -15,7 +15,7 @@ const list = [
   {
     name: "Portfolio",
     description: "My Portfolio",
-    image: "/public/placeholder.svg",
+    image: "placeholder.svg",
     credit: "",
     githubLink: "",
     websiteLink: "",
@@ -23,7 +23,7 @@ const list = [
   {
     name: "My Blog",
     description: "My Personal Blog website",
-    image: "/public/placeholder.svg",
+    image: "placeholder.svg",
     credit: "",
     githubLink: "",
     websiteLink: "",
@@ -31,7 +31,7 @@ const list = [
   {
     name: "LOL Dash",
     description: "An interactive game using C++ and SDL3",
-    image: "/public/placeholder.svg",
+    image: "placeholder.svg",
     credit: "",
     githubLink: "",
     websiteLink: "",
